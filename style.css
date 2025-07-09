@@ -17,12 +17,14 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('imagens/fundo.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center center; /* adicionado */
+    transition: background-image 0.5s ease-in-out; /* suaviza a troca */
     padding: 20px;
 }
+
 
 /* Cabeçalho */
 header > h2 {
