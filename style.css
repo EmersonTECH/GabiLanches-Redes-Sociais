@@ -1,14 +1,5 @@
 @charset "UTF-8";
 
-:root {
-    --cor0:  #ffff;
-    --cor01: #592E08;
-    --cor02: #F29D52;
-    --cor03: #D9631E;
-    --cor04: #D9631E;
-    --cor05: #BF471B;
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -100,6 +91,27 @@ img:hover {
     font-size: 1.2em;
     transform: scale(1.1);
 }
+footer {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+strong {
+    color: mediumblue; /* cor do nome do criador do site */
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+strong:hover {
+     text-shadow: 0 0 8px white;
+    transform: scale(1.1);
+}
+
+
+
 
 /* === MEDIA QUERIES PARA RESPONSIVIDADE === */
 
