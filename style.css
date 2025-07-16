@@ -67,7 +67,16 @@ main h2 {
 }
 
 /* Ícones de redes sociais */
-.container {
+.redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+/* Ícones de vendas e-book */
+.vendas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -101,7 +110,7 @@ footer {
     width: 100%;
 }
 strong {
-    color: mediumblue; /* cor do nome do criador do site */
+    color:black; /* cor do nome do criador do site */
     font-weight: bold;
     transition: all 0.3s ease-in-out;
 }
