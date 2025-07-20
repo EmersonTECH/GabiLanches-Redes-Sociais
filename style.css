@@ -25,11 +25,12 @@ header > h2 {
     font-size: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.178);
     transition: all 0.3s ease-in-out;
+
 }
 
 picture > img {
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
     height: auto;
     border-radius: 50%;
     margin: 0 auto;
@@ -63,7 +64,6 @@ main h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.178);
-    transition: all 0.3s ease-in-out;
 }
 
 /* Ícones de redes sociais */
@@ -96,10 +96,7 @@ img:hover {
     transform: rotate(360deg);
 }
 
-.texto-crescente:hover {
-    font-size: 1.2em;
-    transform: scale(1.1);
-}
+
 footer {
     text-align: center;
     color: white;
@@ -109,14 +106,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
-strong {
-    color:black; /* cor do nome do criador do site */
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
+
+strong a {
+    text-decoration: none;
+    color: rgba(0, 119, 255, 0.692);
 }
-strong:hover {
-     text-shadow: 0 0 8px white;
-    transform: scale(1.1);
+    strong a:hover {
+    text-decoration: underline;
 }
 
 
